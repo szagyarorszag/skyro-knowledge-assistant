@@ -1,0 +1,532 @@
+[
+  {
+    "question": "What is our KYC verification process?",
+    "question_num": 1,
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "source": "customer_support_faq.docx",
+        "category": "Customer Support",
+        "content": "Guide customer to appropriate verification flow\n\nSet expectation on processing time\n\nNote in ticket: \"KYC upgrade requested - Level X to Level Y\"\n\nAccount and KYC Issues\n\nQ: Customer's KYC verification was rejected. Why?\n\nA: Check rejection reason in admin panel under KYC tab. Common reasons:\n\n1. Blurry or unclear photos\n\nAsk customer to retake photos in good lighting\n\nDocument should fill most of the frame\n\nAll text must be clearly readable\n\n2. Document expired\n\nDocument must be valid (not expired)\n\nMust be within 3 months for proof of address\n\n3. Name mismatch\n\nName on ID must match name on account\n\nIf legal name change, need supporting documentation\n\n4. Document not accepted\n\nSome documents not accepted (e.g., student ID, work ID)\n\nAccepted: Passport, driver's license, national ID, utility bill\n\n5. Liveness check failed (selfie)\n\nTake selfie in good lighting, without glasses\n\nFace must be clearly visible\n\nNo filters or editing\n\nStandard Response:",
+        "score": 0.6526646614074707
+      },
+      {
+        "rank": 2,
+        "source": "kyc_process.pdf",
+        "category": "Compliance",
+        "content": "KYC (Know Your Customer) Compliance\nProcess\nDocument Type: Compliance Policy\nAuthor: Michael Rodriguez, Compliance Officer\nLast Updated: September 30, 2024\nStatus: Active\nPurpose\nThis document outlines Skyro's KYC compliance procedures to meet regulatory requirements across\nall operating jurisdictions including US (FinCEN), EU (AMLD5), and APAC regions.\nRegulatory Requirements\nSkyro must comply with:\n\u007f Bank Secrecy Act (BSA) in the United States\n\u007f Anti-Money Laundering Directive 5 (AMLD5) in European Union\n\u007f Financial Action Task Force (FATF) recommendations globally\nCustomer Verification Levels\nLevel 1: Basic Verification (Transaction limit: $5,000/month)\nRequired information:\n\u007f Full legal name\n\u007f Date of birth\n\u007f Email address\n\u007f Phone number\n\u007f Residential address\nVerification method: Email and phone verification\nLevel 2: Standard Verification (Transaction limit: $50,000/month)\nAdditional requirements:\n\u007f Government-issued ID (passport, driver's license, national ID)",
+        "score": 0.7529407739639282
+      },
+      {
+        "rank": 3,
+        "source": "kyc_process.md",
+        "category": "Compliance",
+        "content": "Periodic re-verification (annually for Level 1, every 2 years for Level 2/3)\n\nSanctions screening against OFAC, EU, and UN lists (performed daily)\n\nEscalation Process\n\nSuspicious activity must be reported to: 1. Compliance Officer (immediate) 2. Financial Intelligence Unit (within 24 hours) 3. Regulatory authorities via SAR (Suspicious Activity Report) if required\n\nData Retention\n\nCustomer data retained for 7 years after account closure\n\nTransaction records retained for 10 years\n\nAll records stored in encrypted format in compliance with GDPR\n\nContact\n\nFor questions regarding KYC procedures, contact: compliance@skyro.com",
+        "score": 0.7626193344889803
+      },
+      {
+        "rank": 4,
+        "source": "customer_support_faq.md",
+        "category": "Customer Support",
+        "content": "Account and KYC Issues\n\nQ: Customer's KYC verification was rejected. Why?\n\nA: Check rejection reason in admin panel under KYC tab. Common reasons:\n\nBlurry or unclear photos\n\nAsk customer to retake photos in good lighting\n\nDocument should fill most of the frame\n\nAll text must be clearly readable\n\nDocument expired\n\nDocument must be valid (not expired)\n\nMust be within 3 months for proof of address\n\nName mismatch\n\nName on ID must match name on account\n\nIf legal name change, need supporting documentation\n\nDocument not accepted\n\nSome documents not accepted (e.g., student ID, work ID)\n\nAccepted: Passport, driver's license, national ID, utility bill\n\nLiveness check failed (selfie)\n\nTake selfie in good lighting, without glasses\n\nFace must be clearly visible\n\nNo filters or editing",
+        "score": 0.7653713216209387
+      },
+      {
+        "rank": 5,
+        "source": "kyc_process.md",
+        "category": "Compliance",
+        "content": "KYC (Know Your Customer) Compliance Process\n\nDocument Type: Compliance Policy Author: Michael Rodriguez, Compliance Officer Last Updated: September 30, 2024 Status: Active\n\nPurpose\n\nThis document outlines Skyro's KYC compliance procedures to meet regulatory requirements across all operating jurisdictions including US (FinCEN), EU (AMLD5), and APAC regions.\n\nRegulatory Requirements\n\nSkyro must comply with: - Bank Secrecy Act (BSA) in the United States - Anti-Money Laundering Directive 5 (AMLD5) in European Union - Financial Action Task Force (FATF) recommendations globally\n\nCustomer Verification Levels\n\nLevel 1: Basic Verification (Transaction limit: \u20b15,000/month)\n\nRequired information: - Full legal name - Date of birth - Email address - Phone number - Residential address\n\nVerification method: Email and phone verification\n\nLevel 2: Standard Verification (Transaction limit: \u20b150,000/month)",
+        "score": 0.8177514089478202
+      }
+    ],
+    "Gemini 2.5 Flash_answer": "Skyro's KYC (Know Your Customer) verification process is designed to comply with regulatory requirements across all operating jurisdictions, including US (FinCEN), EU (AMLD5), and APAC regions, adhering to standards such as the Bank Secrecy Act (BSA), Anti-Money Laundering Directive 5 (AMLD5), and Financial Action Task Force (FATF) recommendations (Document 2, Document 5).\n\nThe process involves different customer verification levels:\n\n*   **Level 1: Basic Verification**\n    *   **Transaction Limit**: $5,000/month (Document 2) or \u20b15,000/month (Document 5).\n    *   **Required Information**: Full legal name, Date of birth, Email address, Phone number, Residential address (Document 2, Document 5).\n    *   **Verification Method**: Email and phone verification (Document 2, Document 5).\n\n*   **Level 2: Standard Verification**\n    *   **Transaction Limit**: $50,000/month (Document 2) or \u20b150,000/month (Document 5).\n    *   **Additional Requirements**: Government-issued ID such as a passport, driver's license, or national ID (Document 2).\n\n**Ongoing Compliance Measures:**\n*   **Periodic Re-verification**: Customers undergo re-verification annually for Level 1 accounts and every two years for Level 2/3 accounts (Document 3).\n*   **Sanctions Screening**: Daily sanctions screening is performed against OFAC, EU, and UN lists (Document 3).",
+    "Gemini 2.5 Flash_time": 6.886988162994385,
+    "Gemini 2.5 Flash_length": 1346,
+    "Gemini 2.5 Pro_answer": "Based on the provided documentation, here is an overview of Skyro's KYC verification process.\n\n### Customer Verification Levels\n\nSkyro's KYC process is structured into different verification levels, each with specific requirements and transaction limits.\n\n*   **Level 1: Basic Verification**\n    *   **Transaction Limit:** $5,000/month\n    *   **Required Information:**\n        *   Full legal name\n        *   Date of birth\n        *   Email address\n        *   Phone number\n        *   Residential address\n    *   **Verification Method:** Email and phone verification.\n\n*   **Level 2: Standard Verification**\n    *   **Transaction Limit:** $50,000/month\n    *   **Additional Requirements:**\n        *   A government-issued ID, such as a passport, driver's license, or national ID.\n\n*(Source: kyc_process.pdf)*\n\nWhile a \"Level 3\" is mentioned in the context of re-verification schedules, the provided documents do not contain specific details on its requirements or limits.\n\n### Ongoing Compliance Procedures\n\nIn addition to the initial verification, the KYC process includes ongoing activities to maintain compliance:\n\n*   **Periodic Re-verification:** Customers are required to re-verify their information periodically. This occurs annually for Level 1 customers and every two years for Level 2 and 3 customers.\n*   **Sanctions Screening:** Skyro performs daily screening of its customers against sanctions lists from OFAC, the EU, and the UN.\n*   **Data Retention:** Customer data is retained for 7 years after account closure, and transaction records are retained for 10 years, in compliance with GDPR.\n\n*(Source: kyc_process.md)*\n\n### Handling Verification Rejections\n\nIf a customer's KYC verification is rejected, support agents should check the admin panel for the specific reason. Common rejection reasons include:\n\n*   Blurry or unclear photos\n*   An expired document\n*   A name mismatch between the ID and the account\n*   Use of a non-accepted document type (e.g., student ID)\n*   A failed liveness (selfie) check\n\n*(Source: customer_support_faq.docx, customer_support_faq.md)*\n\nFor further questions regarding these procedures, please contact the compliance team at **compliance@skyro.com**. *(Source: kyc_process.md)*",
+    "Gemini 2.5 Pro_time": 23.070464372634888,
+    "Gemini 2.5 Pro_length": 2229,
+    "Mistral Small 3.2_answer": "Skyro's KYC (Know Your Customer) verification process is outlined in the provided documentation and varies based on the verification level required. Below is a summary of the process:\n\n### **Customer Verification Levels**\n1. **Level 1: Basic Verification**\n   - **Transaction Limit:** \u20b15,000/month\n   - **Required Information:**\n     - Full legal name\n     - Date of birth\n     - Email address\n     - Phone number\n     - Residential address\n   - **Verification Method:** Email and phone verification (Document 2, Document 5)\n\n2. **Level 2: Standard Verification**\n   - **Transaction Limit:** \u20b150,000/month\n   - **Additional Requirements:**\n     - Government-issued ID (passport, driver's license, national ID) (Document 2, Document 5)\n\n### **Common Reasons for KYC Rejection**\nIf a customer's KYC verification is rejected, the following are common reasons (Document 1, Document 4):\n- **Blurry or unclear photos:** Ensure the document fills most of the frame and all text is clearly readable.\n- **Expired document:** The document must be valid (not expired) and within 3 months for proof of address.\n- **Name mismatch:** The name on the ID must match the name on the account. If there is a legal name change, supporting documentation is required.\n- **Unaccepted document:** Some documents (e.g., student ID, work ID) are not accepted. Accepted documents include passport, driver's license, national ID, and utility bills.\n- **Liveness check failed (selfie):** The selfie must be taken in good lighting, without glasses, with a clearly visible face, and no filters or editing.\n\n### **Additional Compliance Information**\n- **Periodic Re-verification:**\n  - Annually for Level 1\n  - Every 2 years for Level 2/3 (Document 3)\n- **Sanctions Screening:** Performed daily against OFAC, EU, and UN lists (Document 3).\n- **Data Retention:**\n  - Customer data retained for 7 years after account closure.\n  - Transaction records retained for 10 years (Document 3).\n\nFor further questions regarding KYC procedures, customers can contact **compliance@skyro.com** (Document 3).\n\nIf more specific details are required beyond what is provided in the context, please specify the area of interest.",
+    "Mistral Small 3.2_time": 37.319904804229736,
+    "Mistral Small 3.2_length": 2177,
+    "Llama 3.3 8B_answer": "Our KYC (Know Your Customer) verification process involves several steps and requirements to ensure compliance with regulatory requirements across various jurisdictions. Here is an overview of the process:\n\n* The process is outlined in our compliance policy documents, including [Document 2 - kyc_process.pdf] and [Document 5 - kyc_process.md].\n* The purpose of the KYC process is to meet regulatory requirements, including the Bank Secrecy Act (BSA) in the United States, Anti-Money Laundering Directive 5 (AMLD5) in the European Union, and Financial Action Task Force (FATF) recommendations globally.\n* The KYC process has several levels of verification, including:\n\t+ Level 1: Basic Verification (Transaction limit: $5,000/month) - required information includes full legal name, date of birth, email address, phone number, and residential address, with verification method via email and phone verification.\n\t+ Level 2: Standard Verification (Transaction limit: $50,000/month) - additional requirements include government-issued ID (passport, driver's license, national ID).\n* The verification process involves checking rejection reasons in the admin panel under the KYC tab, and common reasons for rejection include blurry or unclear photos, document expiration, name mismatch, and document not accepted.\n* Customers may be required to retake photos, provide supporting documentation for name changes, and comply with specific requirements for liveness checks and document acceptance.\n\nFor more information on the KYC verification process, customers can refer to our compliance policy documents or contact compliance@skyro.com.",
+    "Llama 3.3 8B_time": 4.278711795806885,
+    "Llama 3.3 8B_length": 1630
+  },
+  {
+    "question": "How does the fraud detection system work?",
+    "question_num": 2,
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "source": "fraud_detection_system.md",
+        "category": "Technical Documentation",
+        "content": "Fraud Detection System - Technical Documentation\n\nDocument Type: Technical Architecture Author: Alex Kumar, Principal Engineer Last Updated: October 20, 2024 Version: 3.2\n\nSystem Overview\n\nSkyro's fraud detection system uses machine learning models and rule-based engines to identify and prevent fraudulent transactions in real-time.\n\nArchitecture Components\n\n1. Real-Time Scoring Engine\n\nTechnology: Python with FastAPI, deployed on Kubernetes\n\nLatency: < 100ms for 95th percentile\n\nThroughput: 10,000 requests per second\n\nModel: Gradient Boosted Trees (XGBoost) with 200+ features\n\n2. Rule Engine\n\nPre-defined rules for instant decisions: - Velocity checks (e.g., more than 5 transactions in 10 minutes) - Geographic impossibility (transactions from different continents within 1 hour) - Amount anomalies (transaction 10x higher than average) - Blacklisted cards/IPs/devices\n\n3. Feature Store",
+        "score": 0.7562590837478638
+      },
+      {
+        "rank": 2,
+        "source": "fraud_detection_system.md",
+        "category": "Technical Documentation",
+        "content": "Fraud Detection System - Technical Documentation\n\nDocument Type: Technical Architecture Author: Alex Kumar, Principal Engineer Last Updated: October 20, 2024 Version: 3.2\n\nSystem Overview\n\nSkyro's fraud detection system uses machine learning models and rule-based engines to identify and prevent fraudulent transactions in real-time.\n\nArchitecture Components\n\n1. Real-Time Scoring Engine\n\nTechnology: Python with FastAPI, deployed on Kubernetes\n\nLatency: < 100ms for 95th percentile\n\nThroughput: 10,000 requests per second\n\nModel: Gradient Boosted Trees (XGBoost) with 200+ features\n\n2. Rule Engine\n\nPre-defined rules for instant decisions: - Velocity checks (e.g., more than 5 transactions in 10 minutes) - Geographic impossibility (transactions from different continents within 1 hour) - Amount anomalies (transaction 10x higher than average) - Blacklisted cards/IPs/devices\n\n3. Feature Store",
+        "score": 0.7562590837478638
+      },
+      {
+        "rank": 3,
+        "source": "fraud_detection_system.md",
+        "category": "Technical Documentation",
+        "content": "3. Feature Store\n\nKey features used for fraud scoring: - User behavior: Average transaction amount, frequency, time of day patterns - Device fingerprinting: Browser type, screen resolution, timezone, IP address - Transaction details: Amount, merchant category, currency - Network analysis: Connection to known fraudulent accounts - Historical patterns: Chargeback history, declined transactions\n\nFraud Score Calculation\n\nScore range: 0-100 (higher = more likely fraud)\n\nScore Bands: - 0-20: Low risk - Auto-approve - 21-40: Low-medium risk - Auto-approve with monitoring - 41-60: Medium risk - Request additional verification (2FA, email confirmation) - 61-80: High risk - Manual review required - 81-100: Very high risk - Auto-decline and flag account\n\nMachine Learning Model\n\nTraining Data\n\n50 million historical transactions (last 18 months)\n\n150,000 confirmed fraud cases (positive samples)\n\nClass imbalance handled using SMOTE oversampling\n\nModel Performance (as of Oct 2024)\n\nPrecision: 87%",
+        "score": 0.8931615948677063
+      },
+      {
+        "rank": 4,
+        "source": "fraud_detection_system.md",
+        "category": "Technical Documentation",
+        "content": "3. Feature Store\n\nKey features used for fraud scoring: - User behavior: Average transaction amount, frequency, time of day patterns - Device fingerprinting: Browser type, screen resolution, timezone, IP address - Transaction details: Amount, merchant category, currency - Network analysis: Connection to known fraudulent accounts - Historical patterns: Chargeback history, declined transactions\n\nFraud Score Calculation\n\nScore range: 0-100 (higher = more likely fraud)\n\nScore Bands: - 0-20: Low risk - Auto-approve - 21-40: Low-medium risk - Auto-approve with monitoring - 41-60: Medium risk - Request additional verification (2FA, email confirmation) - 61-80: High risk - Manual review required - 81-100: Very high risk - Auto-decline and flag account\n\nMachine Learning Model\n\nTraining Data\n\n50 million historical transactions (last 18 months)\n\n150,000 confirmed fraud cases (positive samples)\n\nClass imbalance handled using SMOTE oversampling\n\nModel Performance (as of Oct 2024)\n\nPrecision: 87%",
+        "score": 0.8931615948677063
+      },
+      {
+        "rank": 5,
+        "source": "fraud_detection_system.md",
+        "category": "Technical Documentation",
+        "content": "150,000 confirmed fraud cases (positive samples)\n\nClass imbalance handled using SMOTE oversampling\n\nModel Performance (as of Oct 2024)\n\nPrecision: 87%\n\nRecall: 92%\n\nF1 Score: 89%\n\nFalse Positive Rate: 1.2%\n\nAUC-ROC: 0.96\n\nRetraining Schedule\n\nWeekly retraining with new data\n\nA/B testing before deployment\n\nRollback mechanism if performance degrades\n\nIntegration with Payment System\n\nPayment request arrives at gateway\n\nGateway calls fraud detection API synchronously\n\nFraud score returned within 100ms\n\nPayment processed based on score threshold\n\nAll decisions logged to data warehouse for analysis\n\nAlerting and Monitoring\n\nSlack alerts for high-risk transactions requiring manual review\n\nDaily dashboard showing fraud rates, false positives, and model performance\n\nPagerDuty escalation if API latency exceeds 200ms or error rate > 1%\n\nKnown Limitations\n\nNew user cold-start problem: Limited history makes scoring difficult\n\nCannot detect certain types of first-party fraud (e.g., friendly fraud)",
+        "score": 0.9923638105392456
+      }
+    ],
+    "Gemini 2.5 Flash_answer": "Skyro's fraud detection system identifies and prevents fraudulent transactions in real-time by combining machine learning models and rule-based engines (Document 1, Document 2).\n\nThe system operates through the following mechanisms:\n\n*   **Architecture Components** (Document 1, Document 2, Document 3, Document 4):\n    *   **Real-Time Scoring Engine:** This engine uses a Gradient Boosted Trees (XGBoost) machine learning model with over 200 features to analyze transactions. It is built with Python and FastAPI, deployed on Kubernetes, and designed for high performance, achieving a latency of less than 100ms for the 95th percentile and a throughput of 10,000 requests per second.\n    *   **Rule Engine:** This component applies pre-defined rules for immediate decisions. Examples include velocity checks (e.g., more than 5 transactions in 10 minutes), geographic impossibility (transactions from different continents within 1 hour), amount anomalies (transaction 10x higher than average), and blacklisted cards, IPs, or devices.\n    *   **Feature Store:** This central repository provides key features for fraud scoring, including user behavior (average transaction amount, frequency, time of day patterns), device fingerprinting (browser type, screen resolution, timezone, IP address), transaction details (amount, merchant category, currency), network analysis (connection to known fraudulent accounts), and historical patterns (chargeback history, declined transactions).\n\n*   **Fraud Score Calculation and Decisioning** (Document 3, Document 4):\n    *   The system calculates a fraud score ranging from 0 to 100, where a higher score indicates a greater likelihood of fraud.\n    *   Based on this score, transactions are assigned to different risk bands, which dictate the subsequent action:\n        *   **0-20 (Low risk):** Auto-approve.\n        *   **21-40 (Low-medium risk):** Auto-approve with monitoring.\n        *   **41-60 (Medium risk):** Request additional verification (e.g., 2FA, email confirmation).\n        *   **61-80 (High risk):** Manual review required.\n        *   **81-100 (Very high risk):** Auto-decline and flag account.\n\n*   **Machine Learning Model Details** (Document 3, Document 4, Document 5):\n    *   The model is trained on 50 million historical transactions (from the last 18 months), including 150,000 confirmed fraud cases. Class imbalance in the training data is addressed using SMOTE oversampling.\n    *   As of October 2024, the model exhibits a Precision of 87%, Recall of 92%, F1 Score of 89%, False Positive Rate of 1.2%, and an AUC-ROC of 0.96.\n    *   The model is retrained weekly with new data, undergoes A/B testing before deployment, and has a rollback mechanism to address performance degradation.\n\n*   **Integration with Payment System** (Document 5):\n    *   When a payment request arrives at the gateway, the gateway synchronously calls the fraud detection API.\n    *   The fraud score is returned within 100ms, and the payment is processed according to the score threshold.\n    *   All decisions are logged to a data warehouse for subsequent analysis.",
+    "Gemini 2.5 Flash_time": 7.332709312438965,
+    "Gemini 2.5 Flash_length": 3108,
+    "Gemini 2.5 Pro_answer": "Based on the provided documentation, Skyro's fraud detection system works by analyzing transactions in real-time using a combination of a rule-based engine and a machine learning model.\n\nHere is a summary of the process and its components as described in `fraud_detection_system.md`:\n\n**Transaction Flow**\n\n1.  A payment request arrives at the payment gateway.\n2.  The gateway makes a synchronous API call to the fraud detection system.\n3.  The system analyzes the transaction using its two main components: a Rule Engine and a Real-Time Scoring Engine.\n4.  A fraud score is calculated and returned to the gateway within 100ms.\n5.  The payment is processed according to the action dictated by the fraud score.\n6.  All decisions are logged to a data warehouse for analysis.\n\n**System Components**\n\n*   **Rule Engine:** This engine applies pre-defined rules for instant decisions on clear-cut fraud patterns. These rules include:\n    *   **Velocity checks:** e.g., more than 5 transactions in 10 minutes.\n    *   **Geographic impossibility:** e.g., transactions from different continents within one hour.\n    *   **Amount anomalies:** e.g., a transaction 10 times higher than the user's average.\n    *   **Blacklists:** Checks against blacklisted cards, IP addresses, and devices.\n\n*   **Real-Time Scoring Engine:** This component uses a Gradient Boosted Trees (XGBoost) machine learning model to generate a risk score.\n    *   **Technology:** Python with FastAPI, deployed on Kubernetes.\n    *   **Performance:** Designed to handle 10,000 requests per second with a latency of less than 100ms.\n    *   **Features:** The model uses over 200 features for scoring, including user behavior, device fingerprinting, transaction details, and historical patterns.\n\n**Fraud Score and Actions**\n\nThe system calculates a fraud score ranging from 0 to 100, where a higher score indicates a higher likelihood of fraud. Specific actions are tied to different score bands:\n*   **0-20 (Low risk):** Auto-approve.\n*   **21-40 (Low-medium risk):** Auto-approve with monitoring.\n*   **41-60 (Medium risk):** Request additional verification (e.g., 2FA).\n*   **61-80 (High risk):** Send to a queue for manual review.\n*   **81-100 (Very high risk):** Auto-decline the transaction and flag the account.\n\n**Model Maintenance and Monitoring**\n\n*   **Retraining:** The machine learning model is retrained weekly with new data to adapt to emerging fraud patterns.\n*   **Alerting:** The system uses Slack to alert teams about high-risk transactions requiring manual review and PagerDuty for critical API performance issues.\n*   **Monitoring:** A daily dashboard tracks fraud rates, false positives, and overall model performance.",
+    "Gemini 2.5 Pro_time": 20.004366636276245,
+    "Gemini 2.5 Pro_length": 2700,
+    "Mistral Small 3.2_answer": "Skyro's fraud detection system operates through a combination of machine learning models and rule-based engines to identify and prevent fraudulent transactions in real-time. Here's how it works:\n\n### **System Overview**\n- The system uses both machine learning models and rule-based engines to detect fraudulent transactions.\n- It processes transactions in real-time, providing responses within strict latency requirements.\n\n### **Key Components**\n1. **Real-Time Scoring Engine**\n   - **Technology:** Python with FastAPI, deployed on Kubernetes.\n   - **Performance:**\n     - Latency: < 100ms for the 95th percentile.\n     - Throughput: 10,000 requests per second.\n   - **Model:** Gradient Boosted Trees (XGBoost) with over 200 features.\n   - **Source:** [Document 1, Document 2]\n\n2. **Rule Engine**\n   - Applies pre-defined rules for instant decisions, including:\n     - **Velocity checks:** Detects unusual transaction frequency (e.g., more than 5 transactions in 10 minutes).\n     - **Geographic impossibility:** Flags transactions from different continents within 1 hour.\n     - **Amount anomalies:** Identifies transactions 10x higher than the user's average.\n     - **Blacklisted cards/IPs/devices:** Blocks known fraudulent entities.\n   - **Source:** [Document 1, Document 2]\n\n3. **Feature Store**\n   - Uses key features for fraud scoring, such as:\n     - **User behavior:** Average transaction amount, frequency, time of day patterns.\n     - **Device fingerprinting:** Browser type, screen resolution, timezone, IP address.\n     - **Transaction details:** Amount, merchant category, currency.\n     - **Network analysis:** Connection to known fraudulent accounts.\n     - **Historical patterns:** Chargeback history, declined transactions.\n   - **Source:** [Document 3, Document 4]\n\n### **Fraud Score Calculation**\n- **Score Range:** 0-100 (higher = more likely fraud).\n- **Score Bands:**\n  - **0-20:** Low risk \u2013 Auto-approve.\n  - **21-40:** Low-medium risk \u2013 Auto-approve with monitoring.\n  - **41-60:** Medium risk \u2013 Request additional verification (2FA, email confirmation).\n  - **61-80:** High risk \u2013 Manual review required.\n  - **81-100:** Very high risk \u2013 Auto-decline and flag account.\n- **Source:** [Document 3, Document 4]\n\n### **Machine Learning Model**\n- **Training Data:**\n  - 50 million historical transactions (last 18 months).\n  - 150,000 confirmed fraud cases (positive samples).\n  - Class imbalance handled using SMOTE oversampling.\n- **Performance (as of October 2024):**\n  - Precision: 87%.\n  - Recall: 92%.\n  - F1 Score: 89%.\n  - False Positive Rate: 1.2%.\n  - AUC-ROC: 0.96.\n- **Retraining:** Weekly with new data, including A/B testing and rollback mechanisms if performance degrades.\n- **Source:** [Document 4, Document 5]\n\n### **Integration with Payment System**\n- Payment requests are processed synchronously via an API call to the fraud detection system.\n- The fraud score is returned within 100ms, and the payment is processed based on the score threshold.\n- All decisions are logged for analysis.\n- **Source:** [Document 5]\n\n### **Alerting and Monitoring**\n- Slack alerts for high-risk transactions requiring manual review.\n- Daily dashboards showing fraud rates, false positives, and model performance.\n- PagerDuty escalation if API latency exceeds 200ms or error rate > 1%.\n- **Source:** [Document 5]\n\n### **Known Limitations**\n- **Cold-start problem:** New users with limited history pose challenges in scoring.\n- **First-party fraud:** The system cannot detect certain types of friendly fraud.\n- **Source:** [Document 5]\n\nThis structured approach ensures that Skyro's fraud detection system efficiently balances speed, accuracy, and security.",
+    "Mistral Small 3.2_time": 6.6130735874176025,
+    "Mistral Small 3.2_length": 3679,
+    "Llama 3.3 8B_answer": "The fraud detection system used by Skyro works by combining machine learning models and rule-based engines to identify and prevent fraudulent transactions in real-time. Here's a breakdown of the system's components and workflow:\n\n* The system consists of three main components: the Real-Time Scoring Engine, the Rule Engine, and the Feature Store.\n* The Real-Time Scoring Engine uses a Gradient Boosted Trees (XGBoost) model with over 200 features to analyze transactions and assign a fraud score. This engine is built using Python with FastAPI and deployed on Kubernetes, with a latency of less than 100ms for the 95th percentile and a throughput of 10,000 requests per second (Source: Document 1 - fraud_detection_system.md).\n* The Rule Engine applies pre-defined rules for instant decisions, including velocity checks, geographic impossibility, amount anomalies, and blacklisted cards/IPs/devices (Source: Document 1 - fraud_detection_system.md and Document 2 - fraud_detection_system.md).\n* The Feature Store provides key features used for fraud scoring, such as user behavior, device fingerprinting, transaction details, network analysis, and historical patterns (Source: Document 3 - fraud_detection_system.md and Document 4 - fraud_detection_system.md).\n* The fraud score is calculated based on a range of 0-100, with higher scores indicating a higher likelihood of fraud. The score bands are used to determine the course of action, ranging from auto-approval to manual review and auto-decline (Source: Document 3 - fraud_detection_system.md and Document 4 - fraud_detection_system.md).\n* The system's performance is monitored, with metrics such as precision, recall, F1 score, false positive rate, and AUC-ROC being tracked (Source: Document 5 - fraud_detection_system.md).\n\nOverall, the system's workflow involves analyzing transactions in real-time, applying rules and machine learning models to assign a fraud score, and making decisions based on that score. While the system is designed to detect fraud, it also has limitations, such as the new user cold-start problem and the inability to detect certain types of first-party fraud (Source: Document 5 - fraud_detection_system.md).",
+    "Llama 3.3 8B_time": 5.418495416641235,
+    "Llama 3.3 8B_length": 2193
+  },
+  {
+    "question": "What were the Q3 2024 business results?",
+    "question_num": 3,
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "source": "q3_2024_business_review.md",
+        "category": "Business & Strategy",
+        "content": "The foundation built this quarter positions us well for Q4 success and sets the stage for continued growth in 2025.\n\nApproved by: - CEO: Jennifer Wang - CFO: David Martinez - COO: Sarah Thompson\n\nBoard Presentation: October 15, 2024",
+        "score": 0.6884642243385315
+      },
+      {
+        "rank": 2,
+        "source": "q3_2024_business_review.md",
+        "category": "Business & Strategy",
+        "content": "The foundation built this quarter positions us well for Q4 success and sets the stage for continued growth in 2025.\n\nApproved by: - CEO: Jennifer Wang - CFO: David Martinez - COO: Sarah Thompson\n\nBoard Presentation: October 15, 2024",
+        "score": 0.6884642332695815
+      },
+      {
+        "rank": 3,
+        "source": "q3_2024_business_review.md",
+        "category": "Business & Strategy",
+        "content": "Q3 2024 Business Review\n\nPrepared by: Finance & Strategy Team Date: September 30, 2024 Audience: Executive Team, Board of Directors\n\nExecutive Summary\n\nQ3 2024 was a strong quarter for Skyro with significant progress on key strategic initiatives. Despite a critical payment gateway incident in October, the team demonstrated excellent response capabilities and maintained customer trust.\n\nKey Highlights: - Revenue grew 34% YoY to $43.2M - Processed 856M transactions (up 41% YoY) - Expanded to 3 new markets (Brazil, Mexico, India) - Reduced customer acquisition cost by 18% - Achieved SOC 2 Type II certification\n\nChallenges: - Payment gateway incident resulted in $127K direct revenue loss - KYC verification bottlenecks delaying customer onboarding - Higher than expected churn in small merchant segment (8.2%)\n\nFinancial Performance\n\nRevenue\n\nTotal Revenue: $43.2M (Q3 2024) - Q3 2023: $32.2M - Growth: +34% YoY - Q2 2024: $39.8M - Growth: +8.5% QoQ",
+        "score": 0.860715389251709
+      },
+      {
+        "rank": 4,
+        "source": "q3_2024_business_review.md",
+        "category": "Business & Strategy",
+        "content": "Q3 2024 Business Review\n\nPrepared by: Finance & Strategy Team Date: September 30, 2024 Audience: Executive Team, Board of Directors\n\nExecutive Summary\n\nQ3 2024 was a strong quarter for Skyro with significant progress on key strategic initiatives. Despite a critical payment gateway incident in October, the team demonstrated excellent response capabilities and maintained customer trust.\n\nKey Highlights: - Revenue grew 34% YoY to \u20b143.2M - Processed 856M transactions (up 41% YoY) - Expanded to 3 new markets (Brazil, Mexico, India) - Reduced customer acquisition cost by 18% - Achieved SOC 2 Type II certification\n\nChallenges: - Payment gateway incident resulted in \u20b1127K direct revenue loss - KYC verification bottlenecks delaying customer onboarding - Higher than expected churn in small merchant segment (8.2%)\n\nFinancial Performance\n\nRevenue\n\nTotal Revenue: \u20b143.2M (Q3 2024) - Q3 2023: \u20b132.2M - Growth: +34% YoY - Q2 2024: \u20b139.8M - Growth: +8.5% QoQ",
+        "score": 0.8944700579622507
+      },
+      {
+        "rank": 5,
+        "source": "q3_2024_business_review.md",
+        "category": "Business & Strategy",
+        "content": "Revenue target: \u20b15M from new markets in Q4\n\nLaunch New Product Features\n\nSubscription billing\n\nAdvanced reporting and analytics\n\nCrypto payment support (beta)\n\nImprove Unit Economics\n\nReduce infrastructure costs by 15%\n\nIncrease ARPU by 12%\n\nMaintain LTV/CAC ratio above 4:1\n\nFinancial Targets (Q4 2024)\n\nRevenue: \u20b148-52M\n\nEBITDA margin: 27-29%\n\nTransaction volume: 950M-1B transactions\n\nNet new merchants: 2,000+\n\nRisks to Monitor\n\nHoliday season traffic surge (Black Friday, Cyber Monday)\n\nCompetitive pressure in key markets\n\nRegulatory changes in new markets\n\nTalent retention during year-end bonus season\n\nConclusion\n\nQ3 2024 demonstrated Skyro's ability to execute on strategic priorities while maintaining strong financial performance. Despite operational challenges, the team showed resilience and commitment to continuous improvement.\n\nThe foundation built this quarter positions us well for Q4 success and sets the stage for continued growth in 2025.",
+        "score": 0.9546659359029402
+      }
+    ],
+    "Gemini 2.5 Flash_answer": "The Q3 2024 business results for Skyro, as detailed in the \"q3_2024_business_review.md\" documents, were as follows:\n\n**Key Highlights (Document 4):**\n*   **Revenue:** Total revenue reached \u20b143.2M. This represents a 34% Year-over-Year (YoY) growth from \u20b132.2M in Q3 2023 and an 8.5% Quarter-over-Quarter (QoQ) growth from \u20b139.8M in Q2 2024.\n*   **Transaction Volume:** Processed 856M transactions, an increase of 41% YoY.\n*   **Market Expansion:** Expanded to 3 new markets: Brazil, Mexico, and India.\n*   **Customer Acquisition Cost (CAC):** Reduced customer acquisition cost by 18%.\n*   **Certification:** Achieved SOC 2 Type II certification.\n\n**Challenges (Document 4):**\n*   **Payment Gateway Incident:** A critical payment gateway incident in October resulted in \u20b1127K direct revenue loss.\n*   **KYC Verification:** KYC verification bottlenecks delayed customer onboarding.\n*   **Merchant Churn:** Experienced higher than expected churn in the small merchant segment (8.2%).",
+    "Gemini 2.5 Flash_time": 5.600060939788818,
+    "Gemini 2.5 Flash_length": 979,
+    "Gemini 2.5 Pro_answer": "Based on the provided documentation, the business results for Q3 2024 were as follows:\n\nAccording to the \"Q3 2024 Business Review\" (q3_2024_business_review.md), the quarter was strong, with significant progress on key strategic initiatives.\n\n**Key Highlights:**\n\n*   **Revenue:** Total revenue for Q3 2024 was 43.2 million, representing a 34% year-over-year (YoY) growth and an 8.5% quarter-over-quarter (QoQ) growth. *(Note: The provided documents show conflicting currency symbols, listing revenue as both $43.2M and \u20b143.2M.)*\n*   **Transaction Volume:** The company processed 856 million transactions, an increase of 41% YoY.\n*   **Market Expansion:** Skyro expanded into three new markets: Brazil, Mexico, and India.\n*   **Customer Acquisition:** Customer acquisition cost was reduced by 18%.\n*   **Compliance:** The company achieved SOC 2 Type II certification.\n\n**Challenges:**\n\n*   **Operational Incident:** A critical payment gateway incident in October resulted in a direct revenue loss of 127,000. *(Note: The provided documents show conflicting currency symbols for this loss, listing it as both $127K and \u20b1127K.)*\n*   **Customer Onboarding:** The company experienced KYC (Know Your Customer) verification bottlenecks that delayed customer onboarding.\n*   **Customer Churn:** There was a higher than expected churn rate of 8.2% in the small merchant segment.",
+    "Gemini 2.5 Pro_time": 11.024200439453125,
+    "Gemini 2.5 Pro_length": 1369,
+    "Mistral Small 3.2_answer": "Here are the key Q3 2024 business results for Skyro based on the provided documentation:\n\n**Financial Performance:**\n- Total Revenue: \u20b143.2M (up 34% year-over-year from \u20b132.2M in Q3 2023 and up 8.5% quarter-over-quarter from \u20b139.8M in Q2 2024) [Documents 3 & 4]\n\n**Operational Highlights:**\n- Processed 856 million transactions (41% year-over-year growth) [Documents 3 & 4]\n- Expanded operations into 3 new markets: Brazil, Mexico, and India [Documents 3 & 4]\n- Reduced customer acquisition cost by 18% [Documents 3 & 4]\n- Achieved SOC 2 Type II certification [Documents 3 & 4]\n\n**Challenges:**\n- Experienced a payment gateway incident resulting in \u20b1127K direct revenue loss [Documents 3 & 4]\n- KYC verification bottlenecks causing delays in customer onboarding [Documents 3 & 4]\n- Higher than expected churn rate (8.2%) in the small merchant segment [Documents 3 & 4]\n\n**Strategic Initiatives:**\n- Launched new product features including subscription billing, advanced reporting/analytics, and crypto payment support (beta) [Document 5]\n- Targeted \u20b15M revenue from new markets in Q4 2024 [Document 5]\n\nThe quarter demonstrated strong growth and execution despite operational challenges, positioning the company well for Q4 2024 and 2025 growth. [Documents 1, 2, & 5]",
+    "Mistral Small 3.2_time": 4.972313404083252,
+    "Mistral Small 3.2_length": 1267,
+    "Llama 3.3 8B_answer": "The Q3 2024 business results for Skyro are as follows:\n\n* Revenue grew 34% Year-over-Year (YoY) to $43.2M\n* Processed 856M transactions, a 41% increase YoY\n* Expanded to 3 new markets: Brazil, Mexico, and India\n* Reduced customer acquisition cost by 18%\n* Achieved SOC 2 Type II certification\n\nHowever, there were also some challenges faced during the quarter, including:\n* A payment gateway incident resulted in a direct revenue loss of $127K\n* KYC verification bottlenecks delayed customer onboarding\n* Higher than expected churn in the small merchant segment (8.2%)\n\nThese results are documented in the Q3 2024 Business Review, prepared by the Finance & Strategy Team and dated September 30, 2024, which is available in multiple documents (Documents 3, 4, and 5).",
+    "Llama 3.3 8B_time": 3.2899410724639893,
+    "Llama 3.3 8B_length": 766
+  },
+  {
+    "question": "Explain the payment retry logic",
+    "question_num": 4,
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "source": "payment_retry_logic_results.md",
+        "category": "Experiments & Results",
+        "content": "Experiment Results: Payment Retry Logic\n\nExperiment ID: EXP-2024-Q3-07 Owner: Jennifer Liu, Senior Engineer Duration: September 1 - September 30, 2024 Status: Completed - Recommendation: Ship to Production\n\nHypothesis\n\nImplementing automatic retry logic with exponential backoff for transient payment failures will increase overall payment success rate by 3-5% without negatively impacting user experience or increasing fraud risk.\n\nBackground\n\nCurrently, when a payment fails due to transient issues (network timeout, temporary gateway unavailability, rate limiting), we immediately return a failure to the user. Analysis of failed payments shows that approximately 15% of failures are due to transient issues that would succeed if retried.\n\nExperiment Design\n\nTreatment Group (50% of traffic)\n\nAutomatic retry on transient failures\n\nMaximum 3 retry attempts\n\nExponential backoff: 1 second, 2 seconds, 4 seconds\n\nOnly retry specific error codes: timeout, gateway_unavailable, rate_limited",
+        "score": 0.6632639072136612
+      },
+      {
+        "rank": 2,
+        "source": "payment_retry_logic_results.md",
+        "category": "Experiments & Results",
+        "content": "Experiment Results: Payment Retry Logic\n\nExperiment ID: EXP-2024-Q3-07 Owner: Jennifer Liu, Senior Engineer Duration: September 1 - September 30, 2024 Status: Completed - Recommendation: Ship to Production\n\nHypothesis\n\nImplementing automatic retry logic with exponential backoff for transient payment failures will increase overall payment success rate by 3-5% without negatively impacting user experience or increasing fraud risk.\n\nBackground\n\nCurrently, when a payment fails due to transient issues (network timeout, temporary gateway unavailability, rate limiting), we immediately return a failure to the user. Analysis of failed payments shows that approximately 15% of failures are due to transient issues that would succeed if retried.\n\nExperiment Design\n\nTreatment Group (50% of traffic)\n\nAutomatic retry on transient failures\n\nMaximum 3 retry attempts\n\nExponential backoff: 1 second, 2 seconds, 4 seconds\n\nOnly retry specific error codes: timeout, gateway_unavailable, rate_limited",
+        "score": 0.6632639169692993
+      },
+      {
+        "rank": 3,
+        "source": "payment_retry_logic_results.md",
+        "category": "Experiments & Results",
+        "content": "Automatic retry on transient failures\n\nMaximum 3 retry attempts\n\nExponential backoff: 1 second, 2 seconds, 4 seconds\n\nOnly retry specific error codes: timeout, gateway_unavailable, rate_limited\n\nControl Group (50% of traffic)\n\nExisting behavior: no automatic retries\n\nUser sees immediate failure\n\nSuccess Metrics\n\nPrimary: Payment success rate\n\nSecondary: User-initiated retry rate\n\nSecondary: Average payment processing time\n\nSecondary: Fraud rate\n\nDuration\n\n30 days with 1 million payment attempts per group\n\nResults\n\nPrimary Metric: Payment Success Rate\n\nControl Group: 94.2% success rate Treatment Group: 97.8% success rate Improvement: +3.6 percentage points Statistical Significance: p < 0.001 (highly significant)\n\nSecondary Metrics\n\nUser-Initiated Retry Rate: - Control: 8.5% of users manually retried after failure - Treatment: 2.1% of users manually retried - Impact: Reduced user effort and frustration",
+        "score": 0.7177468567871029
+      },
+      {
+        "rank": 4,
+        "source": "payment_retry_logic_results.md",
+        "category": "Experiments & Results",
+        "content": "Automatic retry on transient failures\n\nMaximum 3 retry attempts\n\nExponential backoff: 1 second, 2 seconds, 4 seconds\n\nOnly retry specific error codes: timeout, gateway_unavailable, rate_limited\n\nControl Group (50% of traffic)\n\nExisting behavior: no automatic retries\n\nUser sees immediate failure\n\nSuccess Metrics\n\nPrimary: Payment success rate\n\nSecondary: User-initiated retry rate\n\nSecondary: Average payment processing time\n\nSecondary: Fraud rate\n\nDuration\n\n30 days with 1 million payment attempts per group\n\nResults\n\nPrimary Metric: Payment Success Rate\n\nControl Group: 94.2% success rate Treatment Group: 97.8% success rate Improvement: +3.6 percentage points Statistical Significance: p < 0.001 (highly significant)\n\nSecondary Metrics\n\nUser-Initiated Retry Rate: - Control: 8.5% of users manually retried after failure - Treatment: 2.1% of users manually retried - Impact: Reduced user effort and frustration",
+        "score": 0.717746913433075
+      },
+      {
+        "rank": 5,
+        "source": "payment_retry_logic_results.md",
+        "category": "Experiments & Results",
+        "content": "Concurrent run: Both groups tested simultaneously\n\nExternal factors: No major incidents or holidays during test period\n\nMetric consistency: Results stable across all four weeks\n\nConclusion\n\nThe automatic payment retry experiment demonstrated significant improvement in payment success rates with minimal negative impact. The business case is compelling with projected annual revenue increase of $75.6 million. We recommend proceeding with full production rollout.\n\nNext Steps: 1. Engineering team to prepare production deployment 2. Customer support to be briefed on new behavior 3. Monitoring dashboards to be updated 4. Documentation to be updated for merchants\n\nApproval Status: Approved by Sarah Chen (Product), Alex Kumar (Engineering), David Thompson (VP Engineering)",
+        "score": 0.788446843624115
+      }
+    ],
+    "Gemini 2.5 Flash_answer": "The payment retry logic, as implemented in the experiment's treatment group, operates as follows:\n\n*   **Trigger:** Automatic retry is initiated for transient payment failures (Document 1, 2, 3, 4).\n*   **Maximum Attempts:** A maximum of 3 retry attempts are made (Document 1, 2, 3, 4).\n*   **Backoff Strategy:** An exponential backoff strategy is used between retries, with delays of 1 second, 2 seconds, and 4 seconds (Document 1, 2, 3, 4).\n*   **Specific Error Codes:** Retries are only performed for specific error codes: `timeout`, `gateway_unavailable`, and `rate_limited` (Document 1, 2, 3, 4).",
+    "Gemini 2.5 Flash_time": 2.034881591796875,
+    "Gemini 2.5 Flash_length": 601,
+    "Gemini 2.5 Pro_answer": "Based on the \"Experiment Design\" outlined in the `payment_retry_logic_results.md` document, the payment retry logic is defined by the following parameters:\n\n*   **Trigger Condition:** Automatic retries are performed only on specific, transient payment failures. The error codes that trigger a retry are `timeout`, `gateway_unavailable`, and `rate_limited`.\n*   **Number of Attempts:** A maximum of 3 retry attempts are made for a single payment.\n*   **Retry Schedule:** The logic uses an exponential backoff strategy for the timing of retries. The delay is 1 second before the first retry, 2 seconds before the second, and 4 seconds before the third.",
+    "Gemini 2.5 Pro_time": 13.208689451217651,
+    "Gemini 2.5 Pro_length": 650,
+    "Mistral Small 3.2_answer": "ERROR",
+    "Mistral Small 3.2_time": 95.6283528804779,
+    "Mistral Small 3.2_length": 0,
+    "Llama 3.3 8B_answer": "ERROR",
+    "Llama 3.3 8B_time": 97.40833735466003,
+    "Llama 3.3 8B_length": 0
+  },
+  {
+    "question": "What caused the October incident?",
+    "question_num": 5,
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "source": "incident_response_playbook.md",
+        "category": "Security",
+        "content": "Post-Incident Review\n\nConduct within 7 days of resolution:\n\nWhat Happened:\n\nTimeline of events\n\nAttack vector\n\nSystems/data affected\n\nImpact assessment\n\nResponse Evaluation:\n\nWhat went well\n\nWhat went wrong\n\nResponse time metrics\n\nTeam coordination effectiveness\n\nRoot Cause:\n\nTechnical root cause\n\nProcess failures\n\nSecurity control gaps\n\nLessons Learned:\n\nDetection improvements\n\nContainment improvements\n\nPrevention measures\n\nProcess improvements\n\nAction Items:\n\nTechnical remediation (assign owners and deadlines)\n\nProcess improvements\n\nTraining needs\n\nTool/technology needs\n\nPost-Incident Report Template\n\n# Security Incident Report\n\n**Incident ID:** SEC-YYYY-###\n**Date Range:** [Start] to [End]\n**Severity:** SEV-X\n**Incident Commander:** [Name]\n\n## Executive Summary\n[2-3 paragraph overview]\n\n## Timeline\n[Detailed timeline of events]",
+        "score": 1.2176858054970394
+      },
+      {
+        "rank": 2,
+        "source": "incident_response_playbook.md",
+        "category": "Security",
+        "content": "Post-Incident Review\n\nConduct within 7 days of resolution:\n\nWhat Happened:\n\nTimeline of events\n\nAttack vector\n\nSystems/data affected\n\nImpact assessment\n\nResponse Evaluation:\n\nWhat went well\n\nWhat went wrong\n\nResponse time metrics\n\nTeam coordination effectiveness\n\nRoot Cause:\n\nTechnical root cause\n\nProcess failures\n\nSecurity control gaps\n\nLessons Learned:\n\nDetection improvements\n\nContainment improvements\n\nPrevention measures\n\nProcess improvements\n\nAction Items:\n\nTechnical remediation (assign owners and deadlines)\n\nProcess improvements\n\nTraining needs\n\nTool/technology needs\n\nPost-Incident Report Template\n\n# Security Incident Report\n\n**Incident ID:** SEC-YYYY-###\n**Date Range:** [Start] to [End]\n**Severity:** SEV-X\n**Incident Commander:** [Name]\n\n## Executive Summary\n[2-3 paragraph overview]\n\n## Timeline\n[Detailed timeline of events]",
+        "score": 1.2176858186721802
+      },
+      {
+        "rank": 3,
+        "source": "incident_postmortem_089.md",
+        "category": "Meetings & Planning",
+        "content": "Incident Postmortem - Payment Gateway Outage\n\nIncident ID: INC-2024-089 Date: October 22, 2024 Duration: 2 hours 17 minutes (14:23 - 16:40 UTC) Severity: SEV-1 (Critical) Incident Commander: Alex Kumar Author: Jennifer Liu\n\nExecutive Summary\n\nOn October 22, 2024, Skyro's payment gateway experienced a complete outage lasting 2 hours and 17 minutes, affecting all payment processing capabilities. Approximately 3,400 transactions were blocked during this period, resulting in an estimated revenue impact of $127,000 and significant customer complaints.\n\nImpact\n\nCustomer Impact: 3,400 failed transactions, 850 customer support tickets\n\nRevenue Impact: $127,000 in blocked transactions\n\nGeographic Scope: Global (all regions affected)\n\nServices Affected: Payment processing, refund processing, merchant settlements\n\nSLA Breach: Yes - violated 99.95% uptime commitment\n\nTimeline (All times UTC)",
+        "score": 1.3169317245483398
+      },
+      {
+        "rank": 4,
+        "source": "incident_response_playbook.md",
+        "category": "Security",
+        "content": "Communication\n\nInternal Communication: - Incident summary to all employees (within 24 hours of resolution) - Detailed report to executives and board - Training for affected teams\n\nExternal Communication: - Customer notification (if customer data affected) - Regulatory notification (within legal timeframes) - Public statement (if significant incident) - Media response (via Communications Lead only)\n\nRegulatory Requirements\n\nData Breach Notification: - GDPR: Notify data protection authority within 72 hours - CCPA: Notify California Attorney General if >500 residents affected - State Laws: Varies by state, consult legal team - PCI DSS: Notify payment brands and acquiring bank immediately\n\nTimeline: - Legal assessment: Within 24 hours - Regulatory notification: Within legal timeframes - Customer notification: After containment, within legal timeframes\n\nPost-Incident Review\n\nConduct within 7 days of resolution:\n\nWhat Happened:\n\nTimeline of events\n\nAttack vector\n\nSystems/data affected",
+        "score": 1.3301089992613981
+      },
+      {
+        "rank": 5,
+        "source": "incident_response_playbook.md",
+        "category": "Security",
+        "content": "Communication\n\nInternal Communication: - Incident summary to all employees (within 24 hours of resolution) - Detailed report to executives and board - Training for affected teams\n\nExternal Communication: - Customer notification (if customer data affected) - Regulatory notification (within legal timeframes) - Public statement (if significant incident) - Media response (via Communications Lead only)\n\nRegulatory Requirements\n\nData Breach Notification: - GDPR: Notify data protection authority within 72 hours - CCPA: Notify California Attorney General if >500 residents affected - State Laws: Varies by state, consult legal team - PCI DSS: Notify payment brands and acquiring bank immediately\n\nTimeline: - Legal assessment: Within 24 hours - Regulatory notification: Within legal timeframes - Customer notification: After containment, within legal timeframes\n\nPost-Incident Review\n\nConduct within 7 days of resolution:\n\nWhat Happened:\n\nTimeline of events\n\nAttack vector\n\nSystems/data affected",
+        "score": 1.3301090002059937
+      }
+    ],
+    "Gemini 2.5 Flash_answer": "The provided documentation does not specify the cause of the October incident (Payment Gateway Outage on October 22, 2024).\n\nDocument 3, \"incident_postmortem_089.md,\" details the incident's impact and timeline but does not include a section on the root cause. The \"Post-Incident Review\" section in documents like \"incident_response_playbook.md\" outlines categories for \"Root Cause\" (Technical root cause, Process failures, Security control gaps), but these are guidelines and do not provide the specific cause for this particular incident.",
+    "Gemini 2.5 Flash_time": 4.036564588546753,
+    "Gemini 2.5 Flash_length": 539,
+    "Gemini 2.5 Pro_answer": "Based on the provided documentation, the root cause of the October 22, 2024 incident is not specified.\n\nThe document `incident_postmortem_089.md` provides details about the event, but the section detailing the cause is not included in the context.\n\nHere is the information that is available about the incident:\n\n*   **Incident:** A complete outage of Skyro's payment gateway.\n*   **Date and Time:** October 22, 2024, from 14:23 to 16:40 UTC (2 hours 17 minutes).\n*   **Impact:**\n    *   All payment processing capabilities were affected.\n    *   Approximately 3,400 transactions were blocked.\n    *   Estimated revenue impact of $127,000.\n    *   850 customer support tickets were generated.\n    *   It resulted in a breach of the 99.95% uptime SLA.\n\nWhile the incident response playbook outlines that a \"Root Cause\" analysis should be part of every post-incident review, the specific cause for the incident described in `incident_postmortem_089.md` is not present in the supplied context.",
+    "Gemini 2.5 Pro_time": 12.085701704025269,
+    "Gemini 2.5 Pro_length": 989,
+    "Mistral Small 3.2_answer": "ERROR",
+    "Mistral Small 3.2_time": 96.77698850631714,
+    "Mistral Small 3.2_length": 0,
+    "Llama 3.3 8B_answer": "ERROR",
+    "Llama 3.3 8B_time": 96.65387392044067,
+    "Llama 3.3 8B_length": 0
+  },
+  {
+    "question": "What are our Q4 OKR priorities?",
+    "question_num": 6,
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "source": "q4_2024_okrs.md",
+        "category": "Business & Strategy",
+        "content": "Q4 2024 OKRs - Engineering & Product\n\nDepartment: Engineering & Product Quarter: Q4 2024 (October - December) Last Updated: October 1, 2024 Owner: Sarah Chen (VP Product), David Thompson (VP Engineering)\n\nCompany-Level Context\n\nSkyro's Q4 focus: Scale infrastructure to support 3x transaction volume, expand to 5 new markets, and improve customer trust through enhanced security and compliance.\n\nObjective 1: Scale Payment Infrastructure for Growth\n\nKey Results:\n\nKR1.1 - Support 30,000 transactions per second (current: 10,000 TPS) - Owner: Alex Kumar - Status: On Track (60% complete) - Current: Infrastructure upgrades in progress, load testing showing 22,000 TPS - Blocker: None\n\nKR1.2 - Reduce payment processing latency to under 800ms for 95th percentile (current: 1,200ms) - Owner: Jennifer Liu - Status: At Risk (30% complete) - Current: 1,050ms achieved, need additional optimization - Blocker: Fraud detection service adding 200ms latency",
+        "score": 0.9825466107792145
+      },
+      {
+        "rank": 2,
+        "source": "q4_2024_okrs.md",
+        "category": "Business & Strategy",
+        "content": "Q4 2024 OKRs - Engineering & Product\n\nDepartment: Engineering & Product Quarter: Q4 2024 (October - December) Last Updated: October 1, 2024 Owner: Sarah Chen (VP Product), David Thompson (VP Engineering)\n\nCompany-Level Context\n\nSkyro's Q4 focus: Scale infrastructure to support 3x transaction volume, expand to 5 new markets, and improve customer trust through enhanced security and compliance.\n\nObjective 1: Scale Payment Infrastructure for Growth\n\nKey Results:\n\nKR1.1 - Support 30,000 transactions per second (current: 10,000 TPS) - Owner: Alex Kumar - Status: On Track (60% complete) - Current: Infrastructure upgrades in progress, load testing showing 22,000 TPS - Blocker: None\n\nKR1.2 - Reduce payment processing latency to under 800ms for 95th percentile (current: 1,200ms) - Owner: Jennifer Liu - Status: At Risk (30% complete) - Current: 1,050ms achieved, need additional optimization - Blocker: Fraud detection service adding 200ms latency",
+        "score": 0.9825466871261597
+      },
+      {
+        "rank": 3,
+        "source": "q4_2024_okrs.md",
+        "category": "Business & Strategy",
+        "content": "KR5.2 - Implement internal knowledge assistant to reduce repetitive questions by 40% - Owner: Sarah Chen + Engineering - Status: Not Started (0% complete) - Planned: Proof of concept to be developed in Q4 - Note: This is the experimental project related to AI knowledge access\n\nKR5.3 - Achieve 90% customer satisfaction score (current: 84%) - Owner: Customer Success Team - Status: On Track (87% current) - Current: Improved by proactive communication during incidents\n\nResource Allocation\n\nEngineering Team Distribution: - 40% - Payment infrastructure and scalability - 25% - Security, fraud, and compliance - 20% - New market expansion and integrations - 15% - Developer experience and tooling\n\nBudget: - Infrastructure costs: \u20b1800K (includes cloud, third-party services) - Headcount: 5 new engineering hires approved - Third-party services: \u20b1200K (fraud detection, KYC providers)\n\nRisks and Dependencies",
+        "score": 1.0743424995665298
+      },
+      {
+        "rank": 4,
+        "source": "q4_2024_okrs.md",
+        "category": "Business & Strategy",
+        "content": "KR4.3 - Achieve 95% API availability (excluding scheduled maintenance) - Owner: Platform Team - Status: At Risk (93.2% month-to-date) - Current: Impacted by payment gateway incident - Actions: Implementing redundancy and failover mechanisms\n\nKR4.4 - Launch self-service testing sandbox environment - Owner: Jennifer Liu - Status: On Track (70% complete) - Current: Beta launched to 50 partner developers, positive feedback - Next milestone: General availability mid-November\n\nObjective 5: Enhance Customer Support and Operations\n\nKey Results:\n\nKR5.1 - Reduce average ticket resolution time from 4 hours to 2 hours - Owner: Customer Support Team - Status: On Track (3 hours current average) - Current: New ticketing system and knowledge base improving efficiency",
+        "score": 1.0777415186265176
+      },
+      {
+        "rank": 5,
+        "source": "q4_2024_okrs.md",
+        "category": "Business & Strategy",
+        "content": "KR4.3 - Achieve 95% API availability (excluding scheduled maintenance) - Owner: Platform Team - Status: At Risk (93.2% month-to-date) - Current: Impacted by payment gateway incident - Actions: Implementing redundancy and failover mechanisms\n\nKR4.4 - Launch self-service testing sandbox environment - Owner: Jennifer Liu - Status: On Track (70% complete) - Current: Beta launched to 50 partner developers, positive feedback - Next milestone: General availability mid-November\n\nObjective 5: Enhance Customer Support and Operations\n\nKey Results:\n\nKR5.1 - Reduce average ticket resolution time from 4 hours to 2 hours - Owner: Customer Support Team - Status: On Track (3 hours current average) - Current: New ticketing system and knowledge base improving efficiency",
+        "score": 1.0777416229248047
+      }
+    ],
+    "Gemini 2.5 Flash_answer": "Based on the provided documentation, Skyro's Q4 2024 OKR priorities are as follows:\n\n**Company-Level Focus for Q4 2024 (October - December):**\n*   Scale infrastructure to support 3x transaction volume.\n*   Expand to 5 new markets.\n*   Improve customer trust through enhanced security and compliance.\n    *(Source: Document 1, Document 2)*\n\n**Specific Objectives for Engineering & Product and other departments:**\n*   **Objective 1: Scale Payment Infrastructure for Growth**\n    *(Source: Document 1, Document 2)*\n*   **Objective 5: Enhance Customer Support and Operations**\n    *(Source: Document 4, Document 5)*",
+    "Gemini 2.5 Flash_time": 4.643046140670776,
+    "Gemini 2.5 Flash_length": 612,
+    "Gemini 2.5 Pro_answer": "Based on the provided Q4 2024 OKRs for the Engineering & Product department (q4_2024_okrs.md), Skyro's priorities are outlined at both a high company level and through specific departmental objectives.\n\n**Company-Level Q4 Focus:**\n\nThe overarching priorities for the quarter are:\n*   Scale infrastructure to support 3x transaction volume.\n*   Expand to 5 new markets.\n*   Improve customer trust through enhanced security and compliance.\n\n**Key Departmental Objectives:**\n\nThe documentation details the following specific objectives and priorities:\n\n*   **Scale Payment Infrastructure for Growth:** This is a major priority, with key results focused on increasing transaction capacity to 30,000 transactions per second (KR1.1) and reducing payment processing latency to under 800ms (KR1.2).\n*   **Enhance Customer Support and Operations:** This objective aims to improve operational efficiency and customer satisfaction by reducing average ticket resolution time (KR5.1), implementing an internal knowledge assistant (KR5.2), and increasing the customer satisfaction score (KR5.3).\n*   **Improve Platform Reliability and Developer Experience:** Key results in this area target achieving 95% API availability (KR4.3) and launching a self-service testing sandbox environment for partners (KR4.4).\n\n**Resource Allocation:**\n\nThe distribution of the engineering team's time further quantifies these priorities:\n*   **40%** - Payment infrastructure and scalability\n*   **25%** - Security, fraud, and compliance\n*   **20%** - New market expansion and integrations\n*   **15%** - Developer experience and tooling",
+    "Gemini 2.5 Pro_time": 19.47131848335266,
+    "Gemini 2.5 Pro_length": 1603,
+    "Mistral Small 3.2_answer": "ERROR",
+    "Mistral Small 3.2_time": 94.32422876358032,
+    "Mistral Small 3.2_length": 0,
+    "Llama 3.3 8B_answer": "ERROR",
+    "Llama 3.3 8B_time": 96.94678401947021,
+    "Llama 3.3 8B_length": 0
+  },
+  {
+    "question": "How long does a refund take?",
+    "question_num": 7,
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "source": "customer_support_faq.docx",
+        "category": "Customer Support",
+        "content": "Authorization holds appear as pending charges but will be released\n\nIf actual duplicate charge, refund processed immediately (appears in 5-7 days)\n\nOffer $25 goodwill credit for inconvenience\n\nEscalation: If customer disputes this explanation, escalate to payments-team@skyro.com\n\nQ: How long does a refund take?\n\nA: Standard response:\n\n\"Refunds are processed immediately on our end, but it can take 5-7 business days for the funds to appear in your account depending on your bank. Credit card refunds typically appear faster (3-5 days) than debit card refunds (5-7 days).\n\nIf you don't see the refund after 7 business days, please contact your bank to check the status. If your bank confirms no refund was received, please reply to this ticket and we'll investigate further.\"\n\nNotes:\n\nInternational refunds can take up to 10 business days\n\nWeekend/holiday refunds may be delayed\n\nAlways provide refund ID for customer reference",
+        "score": 0.6938697099685669
+      },
+      {
+        "rank": 2,
+        "source": "chargeback_procedures.pdf",
+        "category": "Operations",
+        "content": "Frequently Asked Questions\nQ: How long do I have to respond to a chargeback?\nA: 7 business days for most chargebacks, 48 hours for fraud-related. Check the specific deadline in\nyour notification email.\nQ: Can I issue a refund after receiving a chargeback?\nA: No, the funds have already been returned to the customer. Issuing a refund would result in the\ncustomer receiving a double refund.\nQ: What happens if I don't respond to a chargeback?\nA: You automatically lose the dispute, and the customer keeps the refunded amount. You also pay\nthe chargeback fee.\nQ: How long until I know the outcome?\nA: Typically 30-90 days after submitting evidence. You'll receive email notification when a decision is\nmade.\nQ: Can Skyro help me win chargebacks?\nA: We provide tools, templates, and guidance, but the final decision is made by the card issuing bank.\nWe cannot guarantee outcomes.\nQ: What if my chargeback rate is too high?",
+        "score": 0.8771920800209045
+      },
+      {
+        "rank": 3,
+        "source": "customer_support_faq.md",
+        "category": "Customer Support",
+        "content": "Authorization holds appear as pending charges but will be released\n\nIf actual duplicate charge, refund processed immediately (appears in 5-7 days)\n\nOffer \u20b125 goodwill credit for inconvenience\n\nEscalation: If customer disputes this explanation, escalate to payments-team@skyro.com\n\nQ: How long does a refund take?\n\nA: Standard response:\n\n\"Refunds are processed immediately on our end, but it can take 5-7 business days for the funds to appear in your account depending on your bank. Credit card refunds typically appear faster (3-5 days) than debit card refunds (5-7 days).\n\nIf you don't see the refund after 7 business days, please contact your bank to check the status. If your bank confirms no refund was received, please reply to this ticket and we'll investigate further.\"\n\nNotes: - International refunds can take up to 10 business days - Weekend/holiday refunds may be delayed - Always provide refund ID for customer reference",
+        "score": 0.8941721724933294
+      },
+      {
+        "rank": 4,
+        "source": "chargeback_procedures.md",
+        "category": "Operations",
+        "content": "A: You automatically lose the dispute, and the customer keeps the refunded amount. You also pay the chargeback fee.\n\nQ: How long until I know the outcome?\n\nA: Typically 30-90 days after submitting evidence. You'll receive email notification when a decision is made.\n\nQ: Can Skyro help me win chargebacks?\n\nA: We provide tools, templates, and guidance, but the final decision is made by the card issuing bank. We cannot guarantee outcomes.\n\nQ: What if my chargeback rate is too high?\n\nA: We'll work with you to identify issues and improve processes. Persistent high rates may result in account restrictions or termination.\n\nQ: Do I have to pay the chargeback fee even if I win?\n\nA: No, if you win the dispute, the chargeback fee is refunded to you along with the transaction amount.\n\nQ: Can I talk to the customer directly?\n\nA: Yes, and we encourage it! Often disputes can be resolved by contacting the customer before the bank makes a decision.\n\nResources",
+        "score": 1.043537725597427
+      },
+      {
+        "rank": 5,
+        "source": "chargeback_procedures.md",
+        "category": "Operations",
+        "content": "Mastercard: Excessive Chargeback Merchant (ECM) - Threshold: 1.5% chargeback rate - Review: Monthly - Consequences: Similar to Visa\n\nOur Role: - Monitor merchant compliance with card network rules - Alert merchants before thresholds are reached - Help merchants implement improvement plans - Report to card networks as required\n\nFrequently Asked Questions\n\nQ: How long do I have to respond to a chargeback?\n\nA: 7 business days for most chargebacks, 48 hours for fraud-related. Check the specific deadline in your notification email.\n\nQ: Can I issue a refund after receiving a chargeback?\n\nA: No, the funds have already been returned to the customer. Issuing a refund would result in the customer receiving a double refund.\n\nQ: What happens if I don't respond to a chargeback?\n\nA: You automatically lose the dispute, and the customer keeps the refunded amount. You also pay the chargeback fee.\n\nQ: How long until I know the outcome?",
+        "score": 1.0500364994938614
+      }
+    ],
+    "Gemini 2.5 Flash_answer": "Based on the provided documentation, here is how long a refund takes:\n\n*   **Standard Refund Time:** Refunds are processed immediately by Skyro, but it can take 5-7 business days for the funds to appear in your account, depending on your bank.\n    *   Credit card refunds typically appear faster (3-5 days).\n    *   Debit card refunds usually take 5-7 days.\n*   **International Refunds:** These can take up to 10 business days.\n*   **Delays:** Weekend or holiday refunds may be delayed.\n*   **Follow-up:** If a refund is not seen after 7 business days, customers should contact their bank to check the status. If the bank confirms no refund was received, the customer should reply to their ticket for further investigation.\n\n(Source: Document 1 - customer_support_faq.docx, Document 3 - customer_support_faq.md)",
+    "Gemini 2.5 Flash_time": 5.689627647399902,
+    "Gemini 2.5 Flash_length": 811,
+    "Gemini 2.5 Pro_answer": "Based on the provided documentation, here is the information regarding refund timelines:\n\nAccording to the `customer_support_faq.docx` and `customer_support_faq.md` documents, refunds are processed immediately on Skyro's end, but the time it takes for the funds to appear in a customer's account varies.\n\n*   **Standard Timeframe:** It generally takes 5-7 business days for the refund to appear in the customer's account.\n*   **Credit Card Refunds:** These are typically faster, appearing in 3-5 business days.\n*   **Debit Card Refunds:** These may take the full 5-7 business days.\n*   **International Refunds:** These can take up to 10 business days.\n*   **Potential Delays:** Refunds processed on weekends or holidays may be delayed.\n\nThe documentation also notes that support agents should always provide the customer with a refund ID for their reference.",
+    "Gemini 2.5 Pro_time": 10.656934261322021,
+    "Gemini 2.5 Pro_length": 858,
+    "Mistral Small 3.2_answer": "ERROR",
+    "Mistral Small 3.2_time": 97.67202019691467,
+    "Mistral Small 3.2_length": 0,
+    "Llama 3.3 8B_answer": "ERROR",
+    "Llama 3.3 8B_time": 97.87909889221191,
+    "Llama 3.3 8B_length": 0
+  },
+  {
+    "question": "What are the KYC transaction limits?",
+    "question_num": 8,
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "source": "customer_support_faq.docx",
+        "category": "Customer Support",
+        "content": "Notes:\n\nInternational refunds can take up to 10 business days\n\nWeekend/holiday refunds may be delayed\n\nAlways provide refund ID for customer reference\n\nQ: Customer wants to increase their transaction limit. How do I handle this?\n\nA: Transaction limits are based on KYC verification level:\n\nLevel 1 (Basic): $5,000/month\n\nRequirements: Email and phone verification only\n\nCannot be increased\n\nLevel 2 (Standard): $50,000/month  \n\nRequirements: Government ID + proof of address + selfie\n\nProcess time: 24-48 hours\n\nSend customer link: skyro.com/verify\n\nLevel 3 (Enhanced): Unlimited\n\nRequirements: All Level 2 + source of funds + business docs\n\nProcess time: 3-5 business days\n\nRequires compliance team review\n\nSend customer link: skyro.com/verify-enhanced\n\nTo request increase:\n\nVerify customer's current KYC level in admin panel\n\nGuide customer to appropriate verification flow\n\nSet expectation on processing time\n\nNote in ticket: \"KYC upgrade requested - Level X to Level Y\"\n\nAccount and KYC Issues",
+        "score": 0.8220446705818176
+      },
+      {
+        "rank": 2,
+        "source": "kyc_process.pdf",
+        "category": "Compliance",
+        "content": "KYC (Know Your Customer) Compliance\nProcess\nDocument Type: Compliance Policy\nAuthor: Michael Rodriguez, Compliance Officer\nLast Updated: September 30, 2024\nStatus: Active\nPurpose\nThis document outlines Skyro's KYC compliance procedures to meet regulatory requirements across\nall operating jurisdictions including US (FinCEN), EU (AMLD5), and APAC regions.\nRegulatory Requirements\nSkyro must comply with:\n\u007f Bank Secrecy Act (BSA) in the United States\n\u007f Anti-Money Laundering Directive 5 (AMLD5) in European Union\n\u007f Financial Action Task Force (FATF) recommendations globally\nCustomer Verification Levels\nLevel 1: Basic Verification (Transaction limit: $5,000/month)\nRequired information:\n\u007f Full legal name\n\u007f Date of birth\n\u007f Email address\n\u007f Phone number\n\u007f Residential address\nVerification method: Email and phone verification\nLevel 2: Standard Verification (Transaction limit: $50,000/month)\nAdditional requirements:\n\u007f Government-issued ID (passport, driver's license, national ID)",
+        "score": 0.8860195875167847
+      },
+      {
+        "rank": 3,
+        "source": "kyc_process.md",
+        "category": "Compliance",
+        "content": "KYC (Know Your Customer) Compliance Process\n\nDocument Type: Compliance Policy Author: Michael Rodriguez, Compliance Officer Last Updated: September 30, 2024 Status: Active\n\nPurpose\n\nThis document outlines Skyro's KYC compliance procedures to meet regulatory requirements across all operating jurisdictions including US (FinCEN), EU (AMLD5), and APAC regions.\n\nRegulatory Requirements\n\nSkyro must comply with: - Bank Secrecy Act (BSA) in the United States - Anti-Money Laundering Directive 5 (AMLD5) in European Union - Financial Action Task Force (FATF) recommendations globally\n\nCustomer Verification Levels\n\nLevel 1: Basic Verification (Transaction limit: \u20b15,000/month)\n\nRequired information: - Full legal name - Date of birth - Email address - Phone number - Residential address\n\nVerification method: Email and phone verification\n\nLevel 2: Standard Verification (Transaction limit: \u20b150,000/month)",
+        "score": 0.8978885203730723
+      },
+      {
+        "rank": 4,
+        "source": "customer_support_faq.md",
+        "category": "Customer Support",
+        "content": "Notes: - International refunds can take up to 10 business days - Weekend/holiday refunds may be delayed - Always provide refund ID for customer reference\n\nQ: Customer wants to increase their transaction limit. How do I handle this?\n\nA: Transaction limits are based on KYC verification level:\n\nLevel 1 (Basic): \u20b15,000/month - Requirements: Email and phone verification only - Cannot be increased\n\nLevel 2 (Standard): \u20b150,000/month - Requirements: Government ID + proof of address + selfie - Process time: 24-48 hours - Send customer link: skyro.com/verify\n\nLevel 3 (Enhanced): Unlimited - Requirements: All Level 2 + source of funds + business docs - Process time: 3-5 business days - Requires compliance team review - Send customer link: skyro.com/verify-enhanced\n\nTo request increase: 1. Verify customer's current KYC level in admin panel 2. Guide customer to appropriate verification flow 3. Set expectation on processing time 4. Note in ticket: \"KYC upgrade requested - Level X to Level Y\"",
+        "score": 0.9203162936455049
+      },
+      {
+        "rank": 5,
+        "source": "kyc_process.md",
+        "category": "Compliance",
+        "content": "Periodic re-verification (annually for Level 1, every 2 years for Level 2/3)\n\nSanctions screening against OFAC, EU, and UN lists (performed daily)\n\nEscalation Process\n\nSuspicious activity must be reported to: 1. Compliance Officer (immediate) 2. Financial Intelligence Unit (within 24 hours) 3. Regulatory authorities via SAR (Suspicious Activity Report) if required\n\nData Retention\n\nCustomer data retained for 7 years after account closure\n\nTransaction records retained for 10 years\n\nAll records stored in encrypted format in compliance with GDPR\n\nContact\n\nFor questions regarding KYC procedures, contact: compliance@skyro.com",
+        "score": 1.0948639888802933
+      }
+    ],
+    "Gemini 2.5 Flash_answer": "The KYC transaction limits are based on the customer's verification level:\n\n*   **Level 1 (Basic):** The transaction limit is $5,000/month (Document 1, Document 2) or \u20b15,000/month (Document 3, Document 4).\n*   **Level 2 (Standard):** The transaction limit is $50,000/month (Document 1, Document 2) or \u20b150,000/month (Document 3, Document 4).\n*   **Level 3 (Enhanced):** The transaction limit is Unlimited (Document 1, Document 4).\n\nThere is a discrepancy in the currency symbol used across the provided documents, with some stating '$' and others stating '\u20b1' for Level 1 and Level 2 limits.",
+    "Gemini 2.5 Flash_time": 5.536733150482178,
+    "Gemini 2.5 Flash_length": 589,
+    "Gemini 2.5 Pro_answer": "Based on the provided documentation, the KYC transaction limits are determined by the customer's verification level. There is conflicting information in the documents regarding the currency.\n\nThe transaction limits for each KYC level are as follows:\n\n*   **Level 1 (Basic):**\n    *   The monthly transaction limit is either **$5,000** (as stated in `customer_support_faq.docx` and `kyc_process.pdf`) or **\u20b15,000** (as stated in `customer_support_faq.md` and `kyc_process.md`).\n\n*   **Level 2 (Standard):**\n    *   The monthly transaction limit is either **$50,000** (as stated in `customer_support_faq.docx` and `kyc_process.pdf`) or **\u20b150,000** (as stated in `customer_support_faq.md` and `kyc_process.md`).\n\n*   **Level 3 (Enhanced):**\n    *   The transaction limit is **Unlimited** (as stated in `customer_support_faq.docx` and `customer_support_faq.md`).",
+    "Gemini 2.5 Pro_time": 17.4380624294281,
+    "Gemini 2.5 Pro_length": 858,
+    "Mistral Small 3.2_answer": "ERROR",
+    "Mistral Small 3.2_time": 94.5898859500885,
+    "Mistral Small 3.2_length": 0,
+    "Llama 3.3 8B_answer": "ERROR",
+    "Llama 3.3 8B_time": 97.20850801467896,
+    "Llama 3.3 8B_length": 0
+  },
+  {
+    "question": "Describe the database selection decision",
+    "question_num": 9,
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "source": "adr_015_database_selection.md",
+        "category": "Technical Documentation",
+        "content": "Architecture Decision Record: Database Selection for Transaction Storage\n\nADR Number: 015 Status: Accepted Date: September 15, 2024 Decision Makers: Alex Kumar (Principal Engineer), Jennifer Liu (Senior Engineer), David Thompson (VP Engineering) Consulted: Database Team, Infrastructure Team, Security Team\n\nContext and Problem Statement\n\nSkyro's current transaction database (PostgreSQL 13) is reaching scalability limits as we approach 10,000 transactions per second. We need to select a database solution that can: - Handle 30,000+ TPS with room to scale to 100,000 TPS - Provide strong consistency for financial transactions (ACID guarantees) - Support complex queries for reporting and analytics - Ensure data durability and disaster recovery - Maintain low latency (<100ms for writes, <50ms for reads) - Be cost-effective at scale\n\nDecision Drivers\n\nScalability: Must handle 3x current load immediately, 10x within 2 years\n\nConsistency: Financial data requires strong consistency guarantees",
+        "score": 1.1358048915863037
+      },
+      {
+        "rank": 2,
+        "source": "adr_015_database_selection.md",
+        "category": "Technical Documentation",
+        "content": "Architecture Decision Record: Database Selection for Transaction Storage\n\nADR Number: 015 Status: Accepted Date: September 15, 2024 Decision Makers: Alex Kumar (Principal Engineer), Jennifer Liu (Senior Engineer), David Thompson (VP Engineering) Consulted: Database Team, Infrastructure Team, Security Team\n\nContext and Problem Statement\n\nSkyro's current transaction database (PostgreSQL 13) is reaching scalability limits as we approach 10,000 transactions per second. We need to select a database solution that can: - Handle 30,000+ TPS with room to scale to 100,000 TPS - Provide strong consistency for financial transactions (ACID guarantees) - Support complex queries for reporting and analytics - Ensure data durability and disaster recovery - Maintain low latency (<100ms for writes, <50ms for reads) - Be cost-effective at scale\n\nDecision Drivers\n\nScalability: Must handle 3x current load immediately, 10x within 2 years\n\nConsistency: Financial data requires strong consistency guarantees",
+        "score": 1.1358048915863037
+      },
+      {
+        "rank": 3,
+        "source": "adr_015_database_selection.md",
+        "category": "Technical Documentation",
+        "content": "Automated alerts for latency >100ms or error rate >0.1%\n\nDaily data consistency checks between systems during migration\n\nWeekly performance review meetings during first 3 months\n\nConsequences\n\nPositive\n\nEliminates database as scalability bottleneck for next 3-5 years\n\nSupports multi-region deployment for global expansion\n\nReduces operational burden compared to sharding PostgreSQL\n\nStrong consistency maintains data integrity for financial transactions\n\nAutomatic failover improves system reliability\n\nNegative\n\nHigher infrastructure costs ($27k/month increase)\n\n3-month migration period with associated engineering effort\n\nTeam learning curve may slow down other initiatives temporarily\n\nSome complex queries need optimization\n\nNewer technology carries some unknown risks\n\nNeutral\n\nApplication code changes minimal but required\n\nOperational procedures need to be rewritten\n\nBackup and disaster recovery processes need updating\n\nRelated Decisions",
+        "score": 1.1717720031738281
+      },
+      {
+        "rank": 4,
+        "source": "adr_015_database_selection.md",
+        "category": "Technical Documentation",
+        "content": "Automated alerts for latency >100ms or error rate >0.1%\n\nDaily data consistency checks between systems during migration\n\nWeekly performance review meetings during first 3 months\n\nConsequences\n\nPositive\n\nEliminates database as scalability bottleneck for next 3-5 years\n\nSupports multi-region deployment for global expansion\n\nReduces operational burden compared to sharding PostgreSQL\n\nStrong consistency maintains data integrity for financial transactions\n\nAutomatic failover improves system reliability\n\nNegative\n\nHigher infrastructure costs (\u20b127k/month increase)\n\n3-month migration period with associated engineering effort\n\nTeam learning curve may slow down other initiatives temporarily\n\nSome complex queries need optimization\n\nNewer technology carries some unknown risks\n\nNeutral\n\nApplication code changes minimal but required\n\nOperational procedures need to be rewritten\n\nBackup and disaster recovery processes need updating\n\nRelated Decisions",
+        "score": 1.1731001138687134
+      },
+      {
+        "rank": 5,
+        "source": "adr_015_database_selection.md",
+        "category": "Technical Documentation",
+        "content": "Pros: - Team already has deep expertise - Mature ecosystem with excellent tooling - Strong ACID guarantees - No migration required - Open source with no licensing costs\n\nCons: - Vertical scaling limitations (eventual ceiling) - Complex sharding would be required for massive scale - Read replicas add complexity to application logic - Limited built-in multi-region support\n\nEstimated Cost: \u20b125,000/month (current: \u20b118,000/month)\n\nOption 2: CockroachDB\n\nApproach: Distributed SQL database with PostgreSQL compatibility\n\nPros: - Strong consistency with distributed architecture - Horizontal scalability (theoretically unlimited) - PostgreSQL wire protocol (minimal application changes) - Built-in multi-region support - Automatic rebalancing and failover - No single point of failure",
+        "score": 1.2149763107299805
+      }
+    ],
+    "Gemini 2.5 Flash_answer": "The database selection decision, documented as Architecture Decision Record (ADR) 015, was accepted on September 15, 2024. The decision was made by Alex Kumar, Jennifer Liu, and David Thompson, in consultation with the Database, Infrastructure, and Security Teams (Documents 1, 2).\n\n**Context and Problem:**\nSkyro's existing transaction database, PostgreSQL 13, was nearing its scalability limits, handling approximately 10,000 transactions per second (TPS) (Documents 1, 2).\n\n**Key Requirements and Decision Drivers:**\nThe new database solution needed to address several critical requirements (Documents 1, 2):\n*   **Scalability:** Handle 30,000+ TPS immediately, with room to scale to 100,000 TPS within two years.\n*   **Consistency:** Provide strong consistency (ACID guarantees) for financial transactions.\n*   **Query Support:** Support complex queries for reporting and analytics.\n*   **Durability and Recovery:** Ensure data durability and disaster recovery.\n*   **Latency:** Maintain low latency (<100ms for writes, <50ms for reads).\n*   **Cost-Effectiveness:** Be cost-effective at scale.\n\n**Considered Options and Implied Solution:**\nWhile the specific selected option isn't explicitly stated as \"CockroachDB was chosen,\" \"Option 2: CockroachDB\" is presented as a distributed SQL database with PostgreSQL compatibility (Document 5). Its described advantages align directly with the decision drivers:\n*   Strong consistency with a distributed architecture (Document 5).\n*   Horizontal scalability, theoretically unlimited (Document 5).\n*   PostgreSQL wire protocol for minimal application changes (Document 5).\n*   Built-in multi-region support, automatic rebalancing, and failover (Document 5).\n*   Elimination of a single point of failure (Document 5).\n\nAnother option, continuing with PostgreSQL (Option 1), was considered for its existing team expertise and mature ecosystem but was noted for its vertical scaling limitations and the complexity of sharding for massive scale (Document 5).\n\n**Consequences of the Decision:**\nThe accepted decision carries several positive, negative, and neutral consequences (Documents 3, 4):\n\n*   **Positive:**\n    *   Eliminates the database as a scalability bottleneck for the next 3-5 years.\n    *   Supports multi-region deployment for global expansion.\n    *   Reduces operational burden compared to sharding PostgreSQL.\n    *   Maintains strong consistency for financial transactions.\n    *   Improves system reliability through automatic failover.\n\n*   **Negative:**\n    *   Higher infrastructure costs, with an increase of \u20b127,000 per month.\n    *   A 3-month migration period requiring significant engineering effort.\n    *   A team learning curve that may temporarily slow other initiatives.\n    *   Some complex queries will require optimization.\n    *   Newer technology carries some unknown risks.\n\n*   **Neutral:**\n    *   Application code changes will be minimal but required.\n    *   Operational procedures need to be rewritten.\n    *   Backup and disaster recovery processes need updating.",
+    "Gemini 2.5 Flash_time": 14.156542539596558,
+    "Gemini 2.5 Flash_length": 3052,
+    "Gemini 2.5 Pro_answer": "Based on the provided documentation from `adr_015_database_selection.md`, a decision was made to select a new database solution to replace the existing PostgreSQL 13 database for transaction storage. While the document does not explicitly name the final selection, the described consequences strongly indicate that a new distributed SQL database, such as the evaluated CockroachDB, was chosen over scaling the existing PostgreSQL instance.\n\n### Decision Context and Drivers\n\n*   **Problem:** The current PostgreSQL 13 database is nearing its scalability limit of 10,000 transactions per second (TPS).\n*   **Requirements:** A new solution was needed to meet several key requirements:\n    *   **Scalability:** Handle an immediate load of 30,000+ TPS with the ability to scale to 100,000 TPS.\n    *   **Consistency:** Provide strong ACID guarantees for financial data.\n    *   **Latency:** Maintain write latency below 100ms and read latency below 50ms.\n    *   **Other:** Support complex queries, ensure data durability, and be cost-effective.\n*   **Status:** The decision is documented as \"Accepted\" on September 15, 2024.\n\n### The Decision and Rationale\n\nThe context suggests the team decided against simply scaling the existing PostgreSQL system and instead chose to migrate to a new technology. This is supported by the listed consequences, which align with the pros of \"Option 2: CockroachDB\" and the cons of sticking with PostgreSQL.\n\n**Key points from the decision's consequences:**\n\n*   **Positive Outcomes:**\n    *   Eliminates the database as a scalability bottleneck for the next 3-5 years.\n    *   Supports multi-region deployment for global expansion.\n    *   Reduces the operational burden that would have come from sharding PostgreSQL.\n    *   Improves system reliability through features like automatic failover.\n*   **Negative Outcomes & Trade-offs:**\n    *   **Increased Cost:** A significant increase in infrastructure costs of $27k/month or \u20b127k/month.\n    *   **Migration Effort:** A planned 3-month migration period requiring dedicated engineering effort.\n    *   **Learning Curve:** A temporary slowdown in other initiatives is expected as the team learns the new technology.\n    *   **Query Optimization:** Some existing complex queries will need to be optimized for the new system.",
+    "Gemini 2.5 Pro_time": 29.18808364868164,
+    "Gemini 2.5 Pro_length": 2304,
+    "Mistral Small 3.2_answer": "ERROR",
+    "Mistral Small 3.2_time": 96.75039744377136,
+    "Mistral Small 3.2_length": 0,
+    "Llama 3.3 8B_answer": "ERROR",
+    "Llama 3.3 8B_time": 96.79676556587219,
+    "Llama 3.3 8B_length": 0
+  },
+  {
+    "question": "What is the incident response procedure?",
+    "question_num": 10,
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "source": "incident_response_playbook.md",
+        "category": "Security",
+        "content": "Post-Incident Review\n\nConduct within 7 days of resolution:\n\nWhat Happened:\n\nTimeline of events\n\nAttack vector\n\nSystems/data affected\n\nImpact assessment\n\nResponse Evaluation:\n\nWhat went well\n\nWhat went wrong\n\nResponse time metrics\n\nTeam coordination effectiveness\n\nRoot Cause:\n\nTechnical root cause\n\nProcess failures\n\nSecurity control gaps\n\nLessons Learned:\n\nDetection improvements\n\nContainment improvements\n\nPrevention measures\n\nProcess improvements\n\nAction Items:\n\nTechnical remediation (assign owners and deadlines)\n\nProcess improvements\n\nTraining needs\n\nTool/technology needs\n\nPost-Incident Report Template\n\n# Security Incident Report\n\n**Incident ID:** SEC-YYYY-###\n**Date Range:** [Start] to [End]\n**Severity:** SEV-X\n**Incident Commander:** [Name]\n\n## Executive Summary\n[2-3 paragraph overview]\n\n## Timeline\n[Detailed timeline of events]",
+        "score": 0.9328491997940309
+      },
+      {
+        "rank": 2,
+        "source": "incident_response_playbook.md",
+        "category": "Security",
+        "content": "Post-Incident Review\n\nConduct within 7 days of resolution:\n\nWhat Happened:\n\nTimeline of events\n\nAttack vector\n\nSystems/data affected\n\nImpact assessment\n\nResponse Evaluation:\n\nWhat went well\n\nWhat went wrong\n\nResponse time metrics\n\nTeam coordination effectiveness\n\nRoot Cause:\n\nTechnical root cause\n\nProcess failures\n\nSecurity control gaps\n\nLessons Learned:\n\nDetection improvements\n\nContainment improvements\n\nPrevention measures\n\nProcess improvements\n\nAction Items:\n\nTechnical remediation (assign owners and deadlines)\n\nProcess improvements\n\nTraining needs\n\nTool/technology needs\n\nPost-Incident Report Template\n\n# Security Incident Report\n\n**Incident ID:** SEC-YYYY-###\n**Date Range:** [Start] to [End]\n**Severity:** SEV-X\n**Incident Commander:** [Name]\n\n## Executive Summary\n[2-3 paragraph overview]\n\n## Timeline\n[Detailed timeline of events]",
+        "score": 0.9328492283821106
+      },
+      {
+        "rank": 3,
+        "source": "incident_response_playbook.md",
+        "category": "Security",
+        "content": "Incident Response Partners: - Forensics Firm: CrowdStrike (contract in place) - Legal: External counsel specializing in cybersecurity - PR Firm: Crisis communication specialists - Cyber Insurance: Policy details in finance system\n\nAppendices\n\nAppendix A: Communication Templates\n\n[Email templates for various scenarios]\n\nAppendix B: Technical Procedures\n\n[Detailed technical steps for specific incident types]\n\nAppendix C: Compliance Requirements\n\n[Regulatory notification requirements by jurisdiction]\n\nAppendix D: Forensics Tools\n\n[List of approved forensics tools and procedures]\n\nDocument Control: - Version: 2.1 - Last Review: October 10, 2024 - Next Review: January 10, 2025 - Owner: Sarah Mitchell, CISO - Approved By: Executive Team",
+        "score": 0.9805727573851799
+      },
+      {
+        "rank": 4,
+        "source": "incident_response_playbook.md",
+        "category": "Security",
+        "content": "Incident Response Partners: - Forensics Firm: CrowdStrike (contract in place) - Legal: External counsel specializing in cybersecurity - PR Firm: Crisis communication specialists - Cyber Insurance: Policy details in finance system\n\nAppendices\n\nAppendix A: Communication Templates\n\n[Email templates for various scenarios]\n\nAppendix B: Technical Procedures\n\n[Detailed technical steps for specific incident types]\n\nAppendix C: Compliance Requirements\n\n[Regulatory notification requirements by jurisdiction]\n\nAppendix D: Forensics Tools\n\n[List of approved forensics tools and procedures]\n\nDocument Control: - Version: 2.1 - Last Review: October 10, 2024 - Next Review: January 10, 2025 - Owner: Sarah Mitchell, CISO - Approved By: Executive Team",
+        "score": 0.9805728793144226
+      },
+      {
+        "rank": 5,
+        "source": "incident_response_playbook.md",
+        "category": "Security",
+        "content": "Contact Information\n\nSecurity Hotline: +1-555-SKYRO-SEC\n\nSecurity Email: security@skyro.com\n\nPagerDuty: SEV-1 incidents only\n\nIncident Response Phases\n\nPhase 1: Detection and Initial Response\n\nStep 1: Detect and Verify (0-15 minutes)\n\nIncident detected via:\n\nAutomated security alerts (SIEM)\n\nEmployee report\n\nCustomer report\n\nThird-party notification\n\nSecurity audit finding\n\nInitial Assessment:\n\nVerify incident is real (not false positive)\n\nDetermine severity level\n\nIdentify affected systems and data\n\nEstimate scope of impact\n\nDocument:\n\nTime of detection\n\nDetection method\n\nInitial observations\n\nScreenshots/logs of evidence\n\nStep 2: Assemble Response Team (15-30 minutes)\n\nFor SEV-1: Page entire incident response team\n\nFor SEV-2: Page security team + relevant engineers\n\nFor SEV-3: Email security team\n\nEstablish War Room:\n\nPhysical: Conference Room A (Building 1, Floor 3)\n\nVirtual: Zoom link in #security-incidents Slack channel",
+        "score": 0.9858521067132777
+      }
+    ],
+    "Gemini 2.5 Flash_answer": "Based on the provided documentation, the incident response procedure begins with \"Phase 1: Detection and Initial Response\" (Document 5).\n\n**Phase 1: Detection and Initial Response**\n\n*   **Step 1: Detect and Verify (0-15 minutes)**\n    *   **Incident detection via:**\n        *   Automated security alerts (SIEM)\n        *   Employee report\n        *   Customer report\n        *   Third-party notification\n        *   Security audit finding\n    *   **Initial Assessment:**\n        *   Verify the incident is real (not a false positive)\n        *   Determine severity level\n        *   Identify affected systems and data\n        *   Estimate the scope of impact\n    *   **Document:**\n        *   Time of detection\n        *   Detection method\n        *   Initial observations\n        *   Screenshots/logs of evidence\n*   **Step 2: Assemble Response Team (15-30 minutes)**\n    *   **For SEV-1 incidents:** Page the entire incident response team.\n    *   **For SEV-2 incidents:** Page the security team and relevant engineers.\n    *   **For SEV-3 incidents:** Email the security team.\n    *   **Establish War Room:**\n        *   **Physical:** Conference Room A (Building 1, Floor 3)\n        *   **Virtual:** Zoom link in the #security-incidents Slack channel\n\n(Document 5)\n\nThe provided documentation also outlines a \"Post-Incident Review\" process to be conducted within 7 days of resolution, covering \"What Happened,\" \"Response Evaluation,\" \"Root Cause,\" \"Lessons Learned,\" and \"Action Items\" (Document 1, Document 2). However, the initial \"Incident Response Phases\" beyond Phase 1 are not detailed in the provided context.",
+    "Gemini 2.5 Flash_time": 3.384089469909668,
+    "Gemini 2.5 Flash_length": 1621,
+    "Gemini 2.5 Pro_answer": "Based on the provided documentation, the incident response procedure is organized into distinct phases, including initial response and post-incident review.\n\n### Phase 1: Detection and Initial Response\n\nThis is the first phase of the incident response procedure, as detailed in `incident_response_playbook.md`.\n\n*   **Step 1: Detect and Verify (0-15 minutes)**\n    *   **Detection Methods:** Incidents can be detected through automated security alerts (SIEM), employee reports, customer reports, third-party notifications, or security audit findings.\n    *   **Initial Assessment:** The first steps are to verify the incident is real, determine its severity level, identify affected systems/data, and estimate the scope of the impact.\n    *   **Documentation:** Initial observations, time of detection, detection method, and evidence (screenshots/logs) must be documented.\n\n*   **Step 2: Assemble Response Team (15-30 minutes)**\n    *   **Team Assembly:** The response team is assembled based on the incident's severity:\n        *   **SEV-1:** The entire incident response team is paged.\n        *   **SEV-2:** The security team and relevant engineers are paged.\n        *   **SEV-3:** The security team is notified via email.\n    *   **War Room:** A central coordination location is established, which can be:\n        *   **Physical:** Conference Room A (Building 1, Floor 3)\n        *   **Virtual:** A Zoom link provided in the `#security-incidents` Slack channel.\n\n### Post-Incident Review\n\nFollowing the resolution of an incident, a post-incident review must be conducted within 7 days. According to `incident_response_playbook.md`, this review covers:\n\n*   **What Happened:** A detailed timeline, the attack vector, affected systems/data, and an impact assessment.\n*   **Response Evaluation:** An analysis of what went well, what went wrong, response time metrics, and team coordination effectiveness.\n*   **Root Cause Analysis:** Identifying the technical root cause, process failures, and any security control gaps.\n*   **Lessons Learned:** Determining improvements for detection, containment, prevention, and internal processes.\n*   **Action Items:** Assigning technical remediation tasks, process improvements, and identifying training or technology needs with owners and deadlines.\n\n### Incident Response Partners\n\nThe `incident_response_playbook.md` also lists external partners who may be engaged during a response:\n\n*   **Forensics:** CrowdStrike\n*   **Legal:** External cybersecurity counsel\n*   **PR:** A crisis communication firm",
+    "Gemini 2.5 Pro_time": 31.76301383972168,
+    "Gemini 2.5 Pro_length": 2545,
+    "Mistral Small 3.2_answer": "ERROR",
+    "Mistral Small 3.2_time": 95.17500591278076,
+    "Mistral Small 3.2_length": 0,
+    "Llama 3.3 8B_answer": "ERROR",
+    "Llama 3.3 8B_time": 98.42747902870178,
+    "Llama 3.3 8B_length": 0
+  }
+]

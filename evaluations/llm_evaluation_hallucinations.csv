@@ -1,0 +1,12 @@
+Question,Gemini 2.5 Flash,Gemini 2.5 Pro,Mistral Small 3.2,Llama 3.3 8B
+Q1,NO,NO,NO,NO
+Q2,NO,NO,NO,YES
+Q3,NO,NO,NO,NO
+Q4,NO,NO,NO,NO
+Q5,NO,NO,NO,NO
+Q6,NO,NO,NO,NO
+Q7,NO,NO,YES,NO
+Q8,NO,NO,NO,NO
+Q9,NO,NO,NO,YES
+Q10,NO,NO,NO,NO
+Total YES,0,0,1,2

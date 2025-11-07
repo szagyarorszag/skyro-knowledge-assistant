@@ -1,0 +1,5 @@
+Model,Avg Semantic Sim,Avg Faithfulness,Avg Coverage,Hallucinations
+Gemini 2.5 Flash,0.663,10.0,9.5,0
+Gemini 2.5 Pro,0.672,10.0,9.5,0
+Mistral Small 3.2,0.643,9.0,8.8,1
+Llama 3.3 8B,0.694,8.5,8.4,2
