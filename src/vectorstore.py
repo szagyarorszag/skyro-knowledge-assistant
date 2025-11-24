@@ -6,10 +6,8 @@ from langchain.vectorstores import Chroma
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.schema import Document
 
-from ingest import DocumentIngester
 
-
-class vectorStoreManager:
+class VectorStoreManager:
     # for vector storing operations (embedding generation and similarity search)
     
     def __init__(self, persist_directory: str = "./chroma_db", embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"):
@@ -63,6 +61,7 @@ class vectorStoreManager:
             persist_path = Path(self.persist_directory)
             
             if not persist_path.exists():
+                print(f"ERROR: Persist path does not exist: {persist_path.absolute()}")
                 return False
             
             # Initialize embeddings
@@ -75,9 +74,13 @@ class vectorStoreManager:
                 collection_name="skyro_knowledge"
             )
             
+            print(f"Successfully loaded vector store from {persist_path.absolute()}")
             return True
             
         except Exception as e:
+            print(f"ERROR loading vector store: {type(e).__name__}: {e}")
+            import traceback
+            traceback.print_exc()
             return False
     
     def similarity_search(self, query: str, k: int = 5, filter_dict: Optional[Dict] = None) -> List[Document]:

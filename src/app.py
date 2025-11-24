@@ -124,8 +124,9 @@ st.markdown("""
 def load_rag_system():
     # to load rag system
     try:
-        vector_manager = VectorStoreManager(persist_directory="../chroma_db")
-        vector_manager.load_vectorstore()
+        vector_manager = VectorStoreManager(persist_directory="./chroma_db")
+        if not vector_manager.load_vectorstore():
+            return None, "Failed to load vector store from ./chroma_db. Please ensure the vector store exists."
         rag = RAGRetriever(vector_manager, temperature=0.2)
         return rag, None
     except Exception as e:
@@ -185,6 +186,12 @@ def main():
     
     # header
     st.markdown('<p class="main-header">Skyro Knowledge Assistant</p>', unsafe_allow_html=True)
+    
+    # Add cache clear button in sidebar (for debugging)
+    with st.sidebar:
+        if st.button("🔄 Clear Cache & Reload"):
+            st.cache_resource.clear()
+            st.rerun()
     
     # load rag system
     with st.spinner("Loading knowledge base..."):
